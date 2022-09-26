@@ -4,15 +4,19 @@ pytrans 0.01 (September 2022)
 This script is a python3 port from Klaus Peichl's Transfolio(1)
 
 From Transfolio README:
+
 "
 Transfolio is a file transfer utility that connects a PC to the Atari Portfolio
 pocket computer over the parallel port. It communicates with the built-in file
 transfer software of the Portfolio.
 "
+
 The behavior of this Script is basically 1:1 the same to 
 the original c Tool - except for one minor detail: 
 
-This Script only works with the usblpt(3) Adapter designed by Henrik Haftmann(2)
+This Script only works with the usb2lpt(3) Adapter designed by Henrik Haftmann(2)
+
+To be able to use Windows ioctls in python, I used the idea from https://gist.github.com/santa4nt/11068180
 
 
 (1) https://peichl.leute.server.de/peichl/vipe.htm  : Klaus Peichl's Homepage including Transfolio download
