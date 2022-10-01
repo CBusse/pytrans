@@ -1,4 +1,4 @@
-#!C:\Python27\python.exe
+#!/usr/bin/python3
 """
 # The MIT License (MIT)
 #
